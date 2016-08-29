@@ -1,19 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>9</version>
-	</parent>
+<!-- 	<parent> -->
+<!-- 		<groupId>org.sonatype.oss</groupId> -->
+<!-- 		<artifactId>oss-parent</artifactId> -->
+<!-- 		<version>9</version> -->
+<!-- 	</parent> -->
+    <parent>
+        <groupId>com.demandware.maventools</groupId>
+        <artifactId>project-pom</artifactId>
+        <version>16.9.0.2</version>
+    </parent>
 
 	<groupId>net.razorvine</groupId>
 	<artifactId>pyrolite</artifactId>
-	<version>4.13-SNAPSHOT</version>
+	<version>4.13_internal-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>pyrolite</name>
-	<url>https://github.com/irmen/Pyrolite</url>
+<!-- 	<url>https://github.com/irmen/Pyrolite</url> -->
+	<url>https://github.com/bensusman/Pyrolite</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -64,15 +70,24 @@
 			<version>1.12</version>
 		</dependency>
 	</dependencies>
+<!-- 	<scm> -->
+<!-- 		<url>https://github.com/irmen/Pyrolite</url> -->
+<!-- 		<connection>scm:git:https://github.com/irmen/Pyrolite.git</connection> -->
+<!-- 		<developerConnection>scm:git:https://github.com/irmen/Pyrolite.git</developerConnection> -->
+<!-- 		<tag>HEAD</tag> -->
+<!-- 	</scm> -->
+	
 	<scm>
-		<url>https://github.com/irmen/Pyrolite</url>
-		<connection>scm:git:https://github.com/irmen/Pyrolite.git</connection>
-		<developerConnection>scm:git:https://github.com/irmen/Pyrolite.git</developerConnection>
+		<connection>scm:git:git@github.com:bensusman/Pyrolite.git</connection>
+		<url>scm:git:git@github.com:bensusman/Pyrolite.git</url>
+		<developerConnection>scm:git:git@github.com:bensusman/Pyrolite.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
+	
 	<issueManagement>
 		<system>Github</system>
-		<url>https://github.com/irmen/Pyrolite/issues</url>
+<!-- 		<url>https://github.com/irmen/Pyrolite/issues</url> -->
+		<url>https://github.com/irmen/bensusman/issues</url>
 	</issueManagement>
 
 	<developers>
