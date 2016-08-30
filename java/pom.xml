@@ -14,7 +14,7 @@
 
 	<groupId>net.razorvine</groupId>
 	<artifactId>pyrolite</artifactId>
-	<version>4.13_internal-SNAPSHOT</version>
+	<version>4.13_internal</version>
 	<packaging>jar</packaging>
 
 	<name>pyrolite</name>
@@ -81,7 +81,7 @@
 		<connection>scm:git:git@github.com:bensusman/Pyrolite.git</connection>
 		<url>scm:git:git@github.com:bensusman/Pyrolite.git</url>
 		<developerConnection>scm:git:git@github.com:bensusman/Pyrolite.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>pyrolite-4.13_internal</tag>
 	</scm>
 	
 	<issueManagement>
